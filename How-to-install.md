@@ -3,7 +3,7 @@
 通过https://github.com/Countly/countly-sdk-android/releases/latest 下载最新的JAR包，添加到lib文件夹中  
 （2）对于使用Maven构建项目的用户  
 添加Countly SDK依赖：  
-    “\<dependency\>”  
+    \<dependency\>  
     \<groupId\>ly.count\</groupId\>  
     \<artifactId\>sdk-android\</artifactId\>  
     \<version\>13.10\</version\>  
