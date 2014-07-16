@@ -111,6 +111,18 @@ public class Countly {
         eventQueue_ = new EventQueue(countlyStore_);
     }
     
+    public void setServer(String server) {
+    	queue_.setServer(server);
+    }
+
+    public void setChannel(String channel) {
+    	queue_.setChannel(channel);
+    }
+    
+    public void setRegion(String region) {
+    	queue_.setRegion(region);
+    }
+    
     public void onStart() {
         activityCount_++;
         if (activityCount_ == 1)
