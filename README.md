@@ -50,15 +50,20 @@ Countly.sharedInstance().onStop()
 ```
 
 （4）、调用以下方法之一上报用户行为：
-- Countly.sharedInstance().recordEvent(String key), 其中key代表事件名；
+- ```Countly.sharedInstance().recordEvent(String key)```
+  其中key代表事件名；
 
-- Countly.sharedInstance().recordEvent(String key, int count)，其中key代表事件名，count代表个数或该事件的某一属性，比如购买两个沙漏参数key为”BUY_ITME_5”，count为2；
+- ```Countly.sharedInstance().recordEvent(String key, int count)```
+  其中key代表事件名，count代表个数或该事件的某一属性，比如购买两个沙漏参数key为”BUY_ITME_5”，count为2；
 
-- Countly.sharedInstance().recordEvent(String key, int count, double sum)，其中key代表事件名， count代表个数或该事件的某一属性，sum代表该事件的某一属性如售价，比如用户购买了价格为1.50的沙漏两个， 参数key为”BUY_ITME_5”，count为2， sum为1.50；
+- ```Countly.sharedInstance().recordEvent(String key, int count, double sum)```
+其中key代表事件名， count代表个数或该事件的某一属性，sum代表该事件的某一属性如售价，比如用户购买了价格为1.50的沙漏两个， 参数key为”BUY_ITME_5”，count为2， sum为1.50；
 
-- Countly.sharedInstance().recordEvent(String key, Map\<String,String\> segmentation, int count)，其中key代表事件名，count代表个数或该事件的某一属性，segmentation可用来保存该事件相关的一系列属性，比如用户完成某个任务后获得一些奖励；
+- ```Countly.sharedInstance().recordEvent(String key, Map<String,String> segmentation, int count)```
+其中key代表事件名，count代表个数或该事件的某一属性，segmentation可用来保存该事件相关的一系列属性，比如用户完成某个任务后获得一些奖励；
 
-- Countly.sharedInstance().recordEvent(String key, Map\<string,String\> segmentation, int count, double sum)，其中key代表事件名， count代表个数或该事件的某一整型值属性，sum代表该事件的某一浮点型属性，segmentation可用来保存该事件相关的一系列属性。
+- ```Countly.sharedInstance().recordEvent(String key, Map<string,String> segmentation, int count, double sum)```
+其中key代表事件名，count代表个数或该事件的某一整型值属性，sum代表该事件的某一浮点型属性，segmentation可用来保存该事件相关的一系列属性。
 
 ## 统计说明：
 
