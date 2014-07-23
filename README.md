@@ -2,9 +2,9 @@
 
 ## 前期准备：
 
-* SDK下载地址：到 [https://github.com/Countly/countly-sdk-android]
-* 服务器地址：[https://github.com/Qikuyx/countly-sdk-android/tree/master/release]
-* 游戏APPKEY： <由奇酷工场分配>
+- SDK下载地址：到 [https://github.com/Countly/countly-sdk-android]
+- 服务器地址：[https://github.com/Qikuyx/countly-sdk-android/tree/master/release]
+- 游戏APPKEY： <由奇酷工场分配>
 
 ## 集成说明：
 
