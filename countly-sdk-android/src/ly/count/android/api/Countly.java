@@ -111,14 +111,26 @@ public class Countly {
         eventQueue_ = new EventQueue(countlyStore_);
     }
     
+    /**
+     * Set the server that user select
+     * @param server
+     */
     public void setServer(String server) {
     	queue_.setServer(server);
     }
 
+    /**
+     * Set the channel for this game.
+     * @param channel
+     */
     public void setChannel(String channel) {
     	queue_.setChannel(channel);
     }
     
+    /**
+     * Set the game server region.
+     * @param region
+     */
     public void setRegion(String region) {
     	queue_.setRegion(region);
     }
@@ -404,15 +416,18 @@ class DeviceInfo {
                 return "LDPI";
             case DisplayMetrics.DENSITY_MEDIUM:
                 return "MDPI";
-            case DisplayMetrics.DENSITY_TV:
+            //case DisplayMetrics.DENSITY_TV:
+            case 213:
                 return "TVDPI";
             case DisplayMetrics.DENSITY_HIGH:
                 return "HDPI";
             case DisplayMetrics.DENSITY_XHIGH:
                 return "XHDPI";
-            case DisplayMetrics.DENSITY_XXHIGH:
+            //case DisplayMetrics.DENSITY_XXHIGH:
+            case 480:
                 return "XXHDPI";
-            case DisplayMetrics.DENSITY_XXXHIGH:
+            //case DisplayMetrics.DENSITY_XXXHIGH: //Constant Value: 640 (0x00000280)
+            case 640:
                 return "XXXHDPI";
             default:
                 return "";
