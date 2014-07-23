@@ -2,14 +2,14 @@
 
 ## 前期准备：
 
-SDK下载地址：到https://github.com/Countly/countly-sdk-android
-服务器地址：http://api.qiku.mobi
+SDK下载地址：到 [https://github.com/Countly/countly-sdk-android]
+服务器地址：[https://github.com/Qikuyx/countly-sdk-android/tree/master/release]
 游戏APPKEY： <由奇酷工场分配>
 
 ## 集成说明：
 
 ### 1、在项目中添加Countly SDK
-通过https://github.com/Countly/countly-sdk-android/releases/latest下载最新的JAR包，添加到lib文件夹中。
+通过 [https://github.com/Countly/countly-sdk-android/releases/latest] 下载最新的JAR包，添加到lib文件夹中。
 
 ### 2、修改manifest及声明权限
 在manifest中添加以下代码：
