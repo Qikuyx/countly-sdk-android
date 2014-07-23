@@ -77,22 +77,22 @@ Countly.sharedInstance().onStop()
 1. 注册角色
 ```java
 Countly countly = Countly.sharedInstance();
-Map\<String,String\> segmentation = new HashMap\<String,String\>();
+Map<String,String> segmentation = new HashMap\<String,String\>();
 segmentation.put("channel", "Google Play");
 segmentation.put("server", "新开一服");
-countly.recordEvent(“register”, segmentation, 1);
+countly.recordEvent("register", segmentation, 1);
 ```
 
 2. 充值
 ```java
 Countly countly = Countly.sharedInstance();
-countly.recordEvent(“charge”, 1, 6); //1为购买次数，6为购买金额
+countly.recordEvent("charge", 1, 6); //1为购买次数，6为购买金额
 ```
 
 3. 升级
 ```java
 Countly countly = Countly.sharedInstance();
-countly.recordEvent(“levelup”,1); //1为等级
+countly.recordEvent("levelup",1); //1为等级
 ```
 
 
